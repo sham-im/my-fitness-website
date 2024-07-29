@@ -226,46 +226,20 @@ nav{
     background-repeat: no-repeat;
     background-size: cover; */
 }
-
+training- exersize grid start here
 .training{
     width: 70%;
     margin: 50px auto;
-    /* border: 3px solid red; */
+    border: 3px solid red;
     text-align: center;
     
 }
 .training-grid{
-
-    background-color: blueviolet;
-    /* margin margin-top: 20px; */
-    /* height: 300px; */
+    disply:grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(3 1fr);
 }
-.training-sec-1{
-display: flex;
-padding: 20px;
-/* grid-template-columns: 1fr 2fr 1fr;
-grid-template-rows: 1fr 1fr 1fr;
-height: 400px; */
-}
-
-.trining-1{
-
-}
-.training-img{
-
-}
-.training-img img{
-    height: 100%;
-    width: 100%;
-}
-
-
-
-
-
-
-
-/* test */
+/* our service section start here  */
 
 
 .containerr{
@@ -391,8 +365,10 @@ height: 400px; */
     /* margin-block-end: 15px; */
 }
 .bmi-head{
-    margin-left: 25vw;
-    margin-bottom: 50px;
+    /* margin-left: 25vw; */
+    text-align: center;
+    margin: 20px auto;
+    background-color: red;
 }
 .bmi-head h2{
     font-size: 2rem;
@@ -451,6 +427,7 @@ td{
     /* width: 100%; */
 
 }
+
 .bmi-form input {
     width: 100%;
     border-radius: 4px;
@@ -465,7 +442,7 @@ td{
     width: 100%;
     border-radius: 4px;
     height: 5vh;
-    padding: 10px;
+    padding: 8px;
     margin: 5px ;
     border: none;
     background-color: rgb(192, 196, 196);
@@ -501,40 +478,45 @@ align-items: center;
 
 }
 
-/* trainer image start here  */
 
-.team-image{
-    background-color: bisque;
-    border-radius: 15px;
-    /* border: 3px solid red; */
-    padding: 5px;
+/* test grid start here  */
+.grid-container{
+    border: 2px solid red;
+    background-color: blanchedalmond;
 
-}
-.img-sec-1, .img-sec-2{
-    display: flex;
-    /* padding: 5px; */
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    /* gap: 2%; */
+    grid-gap: 20px;
+    padding: 2%;
+    /* height: 400px; */
+    /* overflow: auto; */
 
-}
-.trainer-1{
-    /* border-radius: 10px; */
-    /* border: 5px solid red; */
-    /* padding: 3px; */
-    margin: 5px ;
-    width: 33%;
 
 }
-.trainer-1 img{
-    height: 100%;
-    width: 100%;
-    /* border: 3px solid rgba(255, 255, 255, 0.115); */
-    border-radius:20px;
-}
-.train-details{
-    margin: 17% 1%;
+.detail{
     position: absolute;
-    /* background-color: rebeccapurple; */
-    
+    margin: 15% 2%;
+    /* color: red; */
+    font-size: 1.1rem;
+    text-align: left;
 }
+.detail p{
+    font-size: 1rem;
+    color: rgba(213, 213, 213, 0.63);
+
+}
+.grid-container img{
+height: 100%;
+width: 100%;
+object-fit: cover;
+border-radius: 25px;
+
+
+}
+/* test grid end here  */
 
 
 /* footer start here  */
@@ -1005,12 +987,23 @@ td{
 .in-100{
     display: flex;
     /* width: 100%; */
-
 }
+
+.in-100 select{
+    width: 100%;
+    border-radius: 4px;
+    height: 6vh;
+    padding: 10px;
+    margin: 5px ;
+    border: none;
+    background-color: rgb(192, 196, 196);
+    /* position: relative; */
+}
+
 .bmi-form input{
     width: 100%;
     border-radius: 4px;
-    height: 5vh;
+    height: 6vh;
     padding: 10px;
     margin: 5px ;
     border: none;
@@ -1050,52 +1043,77 @@ align-items: center;
 
 }
 
-/* trainer image start here  */
 
-.team-image{
-    background-color: rgb(62, 62, 62);
-    border-radius: 15px;
-    /* border: 3px solid red; */
-    padding: 5px;
+/* test grid start here  */
+.grid-container{
+    border: 2px solid red;
+    background-color: blanchedalmond;
+
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* grid-template-rows: repeat(1, 1fr); */
+    grid-template-areas: 
+    "t-2"
+    "t-5"
+    "t-3"
+    "t-6";
+    /* gap: 0; */
+    grid-gap: 20px;
+    padding: 4%;
+    /* height: 100%; */
+    /* overflow: auto; */
+
 
 }
-.img-sec-1, .img-sec-2{
-    display: flex;
-    flex-direction: column;
-    padding: 8px;
+.trainer-2{
+    grid-area: t-2;
 
 }
-.trainer-1{
-    /* border-radius: 10px; */
-    /* border: 5px solid red; */
-    /* padding: 3px; */
-    margin: 5px ;
-    width: 97%;
+.trainer-5{
+    grid-area: t-5;
 
 }
-.trainer-1 img{
-    height: 100%;
-    width: 100%;
-    /* border: 3px solid rgba(255, 255, 255, 0.115); */
-    /* border-radius:20px; */
+.trainer-3{
+    grid-area: t-3;
+
 }
-.train-details{
-    margin: 210px 10px;
+.trainer-6{
+    grid-area: t-6;
+
+}
+
+
+.detail{
     position: absolute;
-    /* background-color: rebeccapurple; */
-    
+    margin: 45% 3%;
+    /* color: red; */
+    font-size: 1.7rem;
+    text-align: left;
 }
-.hide-it{
+.detail p{
+    font-size: 1rem;
+    color: rgba(213, 213, 213, 0.63);
+
+}
+.grid-container img{
+height: 100%;
+width: 100%;
+object-fit: cover;
+border-radius: 25px;
+
+
+}
+
+
+.trainer-1 , .trainer-4 {
     display: none;
 }
-.train-details h4{
-    font-size: 30px;
-    /* background-color: rebeccapurple; */
-    
+
+.trainer-3{
+    /* grid-template-columns: 1 /-1; */
 }
-
-/* vai, samon pichon ante partesi na, 3 din theke mobile data or wifi ektao nai . google e j search korbo sei upay o nai, card upor nich ta korte parlam na  */
-
+/* test grid end here  */
 
 
 /* footer start here  */
