@@ -32,6 +32,12 @@ large above 992 */
     border: 1px solid white;
 
 }
+.purchase-btn{
+    height:40px;
+    width:130px;
+    background-color: green;
+}
+
 .flex-it{
 display: flex;
 
@@ -151,6 +157,9 @@ nav{
 }
 
 .ad-card-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: aquamarine;
     height: 70px;
     width: 160px;
@@ -161,6 +170,12 @@ nav{
     padding: 10px;
 
     /* ekhane ektu kaj korte hbe  */
+}
+.round-icon{
+    height: 30px;
+    width:30px;
+    background-color: red;
+    border-radius:50%;
 }
 .ad-card-2{
     background-color: aquamarine;
@@ -368,7 +383,7 @@ training- exersize grid start here
     /* margin-left: 25vw; */
     text-align: center;
     margin: 20px auto;
-    background-color: red;
+    /* background-color: red; */
 }
 .bmi-head h2{
     font-size: 2rem;
