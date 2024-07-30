@@ -4,8 +4,23 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
-    color: white;
+    /* background-color:linear; */
+    background: #000000;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    /* background: linear-gradient(); */
+    /* margin:0 auto; */
+
+}
+.shape{
+    font-family: 'Miama', sans-serif;
+    font-size: 7rem;
+    font-weight: 400;
 }
 
 
@@ -17,12 +32,12 @@ large above 992 */
 
 /* shared styles */
 .home-btn{
-    background-color: brown;
+    background-color: #E6533C;
     border-radius: 50px;
     margin: 3px;
 }
 .btn{
-    background-color: brown;
+    background-color: #E6533C;
     height: 50px;
     width: 200px;
     border-radius: 50px;
@@ -43,8 +58,12 @@ display: flex;
 
 }
 
-.mk-white{
-    color: white;
+.p-color{
+    color: #FFFFFF;
+    opacity: 50%;
+}
+.h-color{
+    color: #FFFFFF;
 }
 
 
@@ -70,7 +89,9 @@ header{
     /* border: 2px solid red; */
     justify-content: center;
     align-items: center;
-    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(0, 0, 0); */
+    background: linear-gradient(#111111 100%, #777777 0%);
+
     
 }
 nav{
@@ -82,8 +103,9 @@ nav{
     align-items: center;
 }
 .fitness{
-    font-size: 2.5rem;
-    color: white;
+    font-size: 2.8rem;
+    color: #E6533C;
+    font-weight: 900;
 }
 .nav-links li{
     display: flex;
@@ -160,7 +182,8 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: aquamarine;
+    background-color: rgba(255, 255, 255, 0.548);
+    backdrop-filter: blur(2px);
     height: 70px;
     width: 160px;
     border-radius: 10px;
@@ -174,13 +197,17 @@ nav{
 .round-icon{
     height: 30px;
     width:30px;
-    background-color: red;
+    background-color: #E6533C;
     border-radius:50%;
 }
 .ad-card-2{
-    background-color: aquamarine;
+    background-color: rgba(255, 255, 255, 0.548);
+    /* color: rgb(249, 249, 249); */
+    /* opacity: 100%; */
+    backdrop-filter: blur(3px);
+    /* background-color: aquamarine; */
     height: 70px;
-    width: 160px;
+    width: 175px;
     border-radius: 10px;
     position: absolute;
     text-align: left;
@@ -195,6 +222,7 @@ nav{
     /* border: 3px solid red; */
 
 }
+
 .cards{
     display: flex;
     margin-bottom: 50px;
@@ -204,6 +232,15 @@ nav{
 .card-1{
     padding: 10px;
     /* width: 33%; */
+}
+.card-1 h3{
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.card-des p{
+    color: #FFFFFF;
+    opacity: 50%;
+    
 }
 .card-1 img{
     height: 100px;
@@ -216,7 +253,7 @@ nav{
     display: flex;
     text-align: left;
     height: 300px;
-    background-color: rgb(122, 120, 118);
+    background-color: #222222;
     border-radius: 15px;
     /* gap: 30px; */
 }
@@ -391,7 +428,7 @@ training- exersize grid start here
 }
 
 .bmi{
-    background-color: rgba(174, 177, 174, 0.905);
+    background-color: #222222;
     /* width: 70%; */
     display: flex;
     flex-direction: column;
@@ -418,11 +455,18 @@ td{
 
 }
 
+tbody td{
+    color: #FFFFFF;
+    opacity: 50%;
+}
+
 
 /* bmi form start  */
 .bmi-form{
     width: 100%;
     margin: auto;
+    color: #FFFFFF;
+    opacity: 60%;
 
 }
 .test-form{
@@ -496,7 +540,7 @@ align-items: center;
 
 /* test grid start here  */
 .grid-container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: blanchedalmond;
 
     border-radius: 30px;
@@ -504,7 +548,7 @@ align-items: center;
     grid-template-columns: repeat(3, 1fr);
     /* grid-template-rows: repeat(2, 1fr); */
     /* gap: 2%; */
-    grid-gap: 20px;
+    grid-gap: 12px;
     padding: 2%;
     /* height: 400px; */
     /* overflow: auto; */
@@ -520,8 +564,8 @@ align-items: center;
 }
 .detail p{
     font-size: 1rem;
-    color: rgba(213, 213, 213, 0.63);
-
+    color: #FFFFFF;
+    opacity: 50%;
 }
 .grid-container img{
 height: 100%;
@@ -536,7 +580,12 @@ border-radius: 25px;
 
 /* footer start here  */
 footer{
-    background-color: rgb(94, 92, 89);
+    /* background-color: #FFFFFF; */
+    background: #FFFFFF1A;
+
+    /* opacity: 10%; */
+    color: white;
+ 
 }
 .footer-sec-main{
     display: flex;
@@ -544,6 +593,8 @@ footer{
     align-items: center;
     margin-bottom: 10px;
     /* border: 3px solid red; */
+    opacity: 50%;
+
 }
 .footer-sec{
     width: 70%;
@@ -557,7 +608,11 @@ footer{
 }
 .fitness-footer{
     margin-bottom: 10px;
-    font-size: 2rem;
+    font-weight: 800;
+    color: #be0c0c;
+    opacity: 100%;
+    /* color: #E6533C; */
+    /* font-size: 2.5rem; */
 }
 /* .foot-sec-2{
     width: 30%;
@@ -751,7 +806,7 @@ header{
     padding: 25px;
 }
 .card-des p{
-    color: rgba(155, 154, 155, 0.707);
+    color: red;
 }
 .card-1 img{
     height: 100%;
@@ -1061,7 +1116,7 @@ align-items: center;
 
 /* test grid start here  */
 .grid-container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: blanchedalmond;
 
     border-radius: 25px;
