@@ -47,6 +47,9 @@ large above 992 */
     border: 1px solid white;
 
 }
+.menu{
+    display: none;
+}
 .purchase-btn{
     height:40px;
     width:130px;
@@ -278,7 +281,8 @@ nav{
     background-repeat: no-repeat;
     background-size: cover; */
 }
-training- exersize grid start here
+/* training- exersize grid start here */
+
 .training{
     width: 70%;
     margin: 50px auto;
@@ -287,10 +291,82 @@ training- exersize grid start here
     
 }
 .training-grid{
-    disply:grid;
-    /* grid-template-columns: repeat(3, 1fr); */
-    grid-template-columns: repeat(3 1fr);
+
 }
+
+.training-sec-1{
+    display:flex;
+
+}
+.training-sec-2{
+    display:flex;
+
+}
+
+.trining-1{
+    width: 25%;
+    color-scheme: red;
+    /* height: 100%; */
+    /* object-fit: cover; */
+    /* color: #be0c0c; */
+    /* object-position: 70% 70%; */
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+
+}
+.trining-1 img{
+    height: 50px;
+    color: red;
+    /* width: 25%; */
+    /* height: 100%; */
+    /* object-fit: cover; */
+    /* color: #be0c0c; */
+    /* object-position: 70% 70%; */
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+
+}
+.trining-2{
+    width: 50%;
+    /* grid-column-start: 4;
+    grid-column-end: 9; */
+
+}
+.trining-3{
+    width: 25%;
+
+    /* grid-column-start: 10;
+    grid-column-end: 12; */
+}
+.trining-4{
+    width:40%;
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+
+
+}
+.trining-5{
+    width: 25%;
+    /* grid-column-start: 4;
+    grid-column-end: 9; */
+}
+.trining-6{
+    width: 35%;
+    /* grid-column-start: 10;
+    grid-column-end: 12; */
+}
+.training-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.training-img{
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; */
+}
+/* training end here  */
+
 /* our service section start here  */
 
 
@@ -545,7 +621,7 @@ align-items: center;
 
     border-radius: 30px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(12, 1fr);
     /* grid-template-rows: repeat(2, 1fr); */
     /* gap: 2%; */
     grid-gap: 12px;
@@ -683,14 +759,10 @@ hr{
         /* width: 100%; */
         /* background-color: rebeccapurple; */
     }
+    .menu{
+        display: inline;
+    }
 /* copy from main style  */
-
-
-
-
-
-
-
 
 
 
@@ -869,6 +941,46 @@ header{
     background-repeat: no-repeat;
     background-size: cover; */
 }
+
+
+/* training sec start here  */
+
+
+.training-grid{
+    /* display: grid; */
+}
+
+
+.training-sec-1{
+
+
+}
+
+.trining-1 img{
+    height: 100px;
+    width: 100px;
+
+}
+.training-img img{
+    height: 100px;
+    width: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* training start here  */
