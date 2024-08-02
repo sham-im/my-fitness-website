@@ -2,8 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 body{
+    /* max-width: 1700px; */
+    /* margin: 0 auto; */
     /* background-color:linear; */
     background: #000000;
     color: #FFFFFF;
@@ -53,6 +56,9 @@ large above 992 */
 .purchase-btn{
     height:40px;
     width:130px;
+    margin-bottom: 20px;
+    /* align-items: ; */
+    /* justify-content: flex-end;     */
     background-color: green;
 }
 
@@ -169,10 +175,10 @@ nav{
 }
 .image-part{
     height: 100%;
-    width: auto;
+    /* width: auto; */
     /* border: 2px solid rgb(69, 219, 59); */
     text-align: center;
-    /* position: relative; */
+    position: relative;
 }
 .image-part>img{
     height: 100%;
@@ -192,8 +198,10 @@ nav{
     border-radius: 10px;
     position: absolute;
     text-align: left;
-    margin: 30% 1%;
+    margin: 120% 1%;
+    /* margin-top: 100%; */
     padding: 10px;
+    /* background-color: red; */
 
     /* ekhane ektu kaj korte hbe  */
 }
@@ -214,7 +222,7 @@ nav{
     border-radius: 10px;
     position: absolute;
     text-align: left;
-    margin: 8% 17% ;
+    margin: 45% 70% ;
     padding: 10px;
 }
 
@@ -276,6 +284,7 @@ nav{
     height: 100%;
     width: 100%;
     border-radius: 20px;
+    object-fit: cover;
     /* background-image: url(images/run.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -296,6 +305,7 @@ nav{
 
 .training-sec-1{
     display:flex;
+    margin: 20px;
 
 }
 .training-sec-2{
@@ -305,7 +315,9 @@ nav{
 
 .trining-1{
     width: 25%;
-    color-scheme: red;
+    /* color-scheme: red; */
+    filter: grayscale(red);
+
     /* height: 100%; */
     /* object-fit: cover; */
     /* color: #be0c0c; */
@@ -316,7 +328,7 @@ nav{
 }
 .trining-1 img{
     height: 50px;
-    color: red;
+    /* color: red; */
     /* width: 25%; */
     /* height: 100%; */
     /* object-fit: cover; */
@@ -363,7 +375,7 @@ nav{
 .training-img{
     height: 100%;
     width: 100%;
-    /* object-fit: cover; */
+    object-fit: cover;
 }
 /* training end here  */
 
@@ -401,18 +413,22 @@ nav{
 }
 .packages{
     display: flex;
-    justify-content: center;
-    align-content: center;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* align-content: center; */
 }
 
 .service-package-1{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 25px;
     border-radius: 20px;
     background-color: rgba(105, 119, 244, 0.796);
     color: rgb(255, 255, 255);
-    margin: 0px 10px;
+    margin: 20px 10px;
     /* margin-right: 10px; */
-    margin-bottom: 20px;
     width: 33%;
 }
 .head-hr{
@@ -730,12 +746,15 @@ hr{
     
     nav{
         /* display: flex; */
-        justify-content: flex-start;
-        align-items: flex-start;
-        text-align: left;
+        justify-content: space-between;
+        align-items: flex-starSSSt;
+        /* text-align: left; */
         /* border: 2px solid red; */
         width: 90%;
         margin: 35px 0;
+    }
+    .menu{
+        font-size: 3S0px;
     }
     .fitness{
         font-size: 3rem;
