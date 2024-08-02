@@ -375,7 +375,7 @@ nav{
 .training-img{
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 /* training end here  */
 
@@ -419,10 +419,12 @@ nav{
 }
 
 .service-package-1{
-    height: 400px;
+    /* height: 400px; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: left;
+    align-items: start;
+    /* align-content: center; */
     padding: 25px;
     border-radius: 20px;
     background-color: rgba(105, 119, 244, 0.796);
