@@ -50,6 +50,14 @@ large above 992 */
     border: 1px solid white;
 
 }
+.mobile-btn{
+    display: none;
+}
+.btn:hover{
+    background-color: #E6533C;
+    cursor: pointer;
+
+}
 .menu{
     display: none;
 }
@@ -148,7 +156,14 @@ nav{
 
 }
 .head-title{
-    font-size: 4rem;"
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+.shape{
+    font-size: 1.2rem;
+}
+.head-des{
+    
 }
 .head-dess{
     width: 85%;
@@ -272,19 +287,22 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 50%;
+    width: 40%;
     padding: 30px;
     
 }
 .run{
-    width: 50%;
+    width: 60%;
     padding: 20px;
+    /* object-fit: cover; */
 }
 .run img{
     height: 100%;
     width: 100%;
     border-radius: 20px;
-    object-fit: cover;
+    object-fit: none;
+    object-position: 65% 28%;
+
     /* background-image: url(images/run.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -299,6 +317,19 @@ nav{
     text-align: center;
     
 }
+
+.training-head{
+    /* text-align: left; */
+}
+.training-head {
+    text-align: left;
+}
+.trining-1 h4, .trining-2 h4, .trining-3 h4, .trining-4 h4, .trining-5 h4, .trining-6 h4{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 1%;
+    font-size: 0.8rem;
+}
 .training-grid{
 
 }
@@ -306,6 +337,7 @@ nav{
 .training-sec-1{
     display:flex;
     margin: 20px;
+    /* width: ; */
 
 }
 .training-sec-2{
@@ -396,7 +428,7 @@ nav{
 
 .service-main{
     /* width: 70%; */
-    background-color: rgb(187, 199, 249);
+    background-color: rgb(36, 36, 36);
     /* margin-bottom: 150px; */
 }
 .service{
@@ -404,8 +436,9 @@ nav{
     margin: 0 auto;
     /* background-color: rgb(187, 199, 249); */
 }
-.service-header{
+.service-header {
     text-align: center;
+
     font-size: 2rem
 }
 .service-list{
@@ -513,7 +546,7 @@ nav{
 .bmi-head{
     /* margin-left: 25vw; */
     text-align: center;
-    margin: 20px auto;
+    margin: 50px ;
     /* background-color: red; */
 }
 .bmi-head h2{
@@ -591,6 +624,10 @@ tbody td{
     background-color: rgb(192, 196, 196);
     /* position: relative; */
 }
+.in-50{
+    color: rgba(85, 85, 85, 0.797);
+
+}
 .in-100 select{
     width: 100%;
     border-radius: 4px;
@@ -639,8 +676,8 @@ align-items: center;
 
     border-radius: 30px;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    /* grid-template-rows: repeat(2, 1fr); */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     /* gap: 2%; */
     grid-gap: 12px;
     padding: 2%;
@@ -678,7 +715,6 @@ footer{
     background: #FFFFFF1A;
 
     /* opacity: 10%; */
-    color: white;
  
 }
 .footer-sec-main{
@@ -687,7 +723,7 @@ footer{
     align-items: center;
     margin-bottom: 10px;
     /* border: 3px solid red; */
-    opacity: 50%;
+    opacity: 100%;
 
 }
 .footer-sec{
@@ -703,7 +739,7 @@ footer{
 .fitness-footer{
     margin-bottom: 10px;
     font-weight: 800;
-    color: #be0c0c;
+    color:   #E6533C;
     opacity: 100%;
     /* color: #E6533C; */
     /* font-size: 2.5rem; */
@@ -749,14 +785,15 @@ hr{
     nav{
         /* display: flex; */
         justify-content: space-between;
-        align-items: flex-starSSSt;
+        align-items: flex-start;
         /* text-align: left; */
         /* border: 2px solid red; */
         width: 90%;
-        margin: 35px 0;
+        margin: 50px 0;
     }
     .menu{
-        font-size: 3S0px;
+        font-size: 30px;
+        display: inline;
     }
     .fitness{
         font-size: 3rem;
@@ -780,9 +817,7 @@ hr{
         /* width: 100%; */
         /* background-color: rebeccapurple; */
     }
-    .menu{
-        display: inline;
-    }
+
 /* copy from main style  */
 
 
@@ -834,9 +869,23 @@ header{
 
 .button-div{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     margin-top: 2vh;
+}
+.desktop-btn{
+    display: none;
+}
+.mobile-btn{
+    display: inline;
+        background-color: #E6533C;
+        height: 9vh;
+        width: 42vw;
+        border-radius: 50px;
+        margin: 3px;
+        color: white;
+        font-size: 20px;
+        /* border: 1px solid white; */
 }
 .image-part{
     /* text-align: center; */
@@ -855,23 +904,23 @@ header{
 .ad-card-1{
     background-color: rgb(154, 163, 160);
     height: 70px;
-    width: 180px;
+    width: 30vw;
     /* border-radius: 10px;
     position: absolute;
     text-align: left; */
-    margin: 48% 1%;
+    margin: 65% 1%;
     padding: 15px;
 
     /* ekhane ektu kaj korte hbe  */
 }
 .ad-card-2{
     background-color: rgb(183, 194, 190);
-    height: 75px;
-    width: 170px;
+    height: 10vh;
+    width: 35vw;
     border-radius: 10px;
     position: absolute;
     text-align: left;
-    margin: 10% 43% ;
+    margin: 15% 55% ;
     padding: 15px;
 }
 
@@ -898,9 +947,7 @@ header{
 .card-des{
     padding: 25px;
 }
-.card-des p{
-    color: red;
-}
+
 .card-1 img{
     height: 100%;
     width: 100%;
@@ -957,6 +1004,7 @@ header{
     height: 100%;
     width: 100%;
     border-radius: 20px;
+    object-fit: cover;
     /* background-image: url(images/run.jpg);
     background-position: center;
     background-repeat: no-repeat;
