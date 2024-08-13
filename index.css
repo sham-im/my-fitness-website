@@ -93,12 +93,6 @@ display: flex;
 
 
 
-
-
-
-
-
-
 header{
     display: flex;
     flex-direction: column;
@@ -247,12 +241,18 @@ nav{
     padding: 10px;
 }
 
+
+/* habit section start here  */
+
 .habit{
     width: 70%;
     margin: 0 auto;
     text-align: center;
     /* border: 3px solid red; */
 
+}
+.habit-title>h1{
+    font-size: 15rem;
 }
 
 .cards{
@@ -272,6 +272,7 @@ nav{
 .card-des p{
     color: #FFFFFF;
     opacity: 50%;
+    margin-top: 10px;
     
 }
 .card-1 img{
@@ -445,6 +446,7 @@ nav{
 .service-main{
     /* width: 70%; */
     background-color: rgb(36, 36, 36);
+    /* margin-top: 80px ; */
     /* margin-bottom: 150px; */
 }
 .service{
@@ -454,9 +456,9 @@ nav{
 }
 .service-header {
     text-align: center;
-
-    font-size: 2rem
+    font-size: 2rem;
 }
+
 .service-list{
     list-style: square inside;
 }
@@ -502,7 +504,8 @@ nav{
     /* margin: 5px 0; */
 }
 .disc{
-    color: green;
+    color: rgb(237, 254, 0);
+    margin-top: 5px;
 }
 .facilities{
     margin: 5px 0px;
@@ -654,7 +657,6 @@ tbody td{
 }
 .in-50{
     color: #FFFFFF;
-
 }
 .in-100 select{
     width: 100%;
@@ -757,11 +759,11 @@ footer{
 .footer-sec{
     width: 70%;
     display: flex;
-    margin-top: 30px;
+    margin-top: 50px;
     /* background-color: blue; */
 }
 .foot-sec-1{
-    width: 50%;
+    width: 40%;
     margin-right: 20%;
 }
 .fitness-footer{
@@ -772,6 +774,11 @@ footer{
     /* color: #E6533C; */
     /* font-size: 2.5rem; */
 }
+.footer-test-section{
+    width: 60%;
+    gap: 50px;
+}
+
 /* .foot-sec-2{
     width: 30%;
     text-align: left;
@@ -982,7 +989,7 @@ header{
 }
 .card-1{
     padding: 10px;
-    width: 50%;
+    width: 70%;
 }
 .card-des{
     padding: 25px;
@@ -1001,7 +1008,7 @@ header{
     justify-content: center;
     align-items: center;
     text-align: left;
-    height: 600px;
+    height: 650px;
     border-radius: 15px;
     /* gap: 30px; */
     padding: 20px;
@@ -1024,9 +1031,10 @@ header{
 }
 .des-run-extra h1{
     font-size: 2.5rem;
+    margin-top: 50px;
 }
 .des-run-extra p{
-    width: 80%;
+    text-align: center;
 }
 .run-btn{
     width: 100%;
@@ -1053,27 +1061,82 @@ header{
 
 /* training sec start here  */
 
-
-.training-grid{
-    /* display: grid; */
-}
-
-
 .training-sec-1{
+    display:flex;
+    margin: 20px;
+    /* width: ; */
 
+}
+.training-sec-2{
+    display:flex;
 
 }
 
-.trining-1 img{
-    height: 100px;
-    width: 100px;
+.trining-1{
+    width: 25%;
+    /* color-scheme: red; */
+    filter: grayscale(red);
 
+    /* height: 100%; */
+    /* object-fit: cover; */
+    /* color: #be0c0c; */
+    /* object-position: 70% 70%; */
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+
+}
+.trining-1 img{
+    height: 50px;
+    /* color: red; */
+    /* width: 25%; */
+    /* height: 100%; */
+    /* object-fit: cover; */
+    /* color: #be0c0c; */
+    /* object-position: 70% 70%; */
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+
+}
+.trining-2{
+    width: 50%;
+    /* grid-column-start: 4;
+    grid-column-end: 9; */
+
+}
+.trining-3{
+    width: 25%;
+
+    /* grid-column-start: 10;
+    grid-column-end: 12; */
+}
+.trining-4{
+    width:40%;
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+
+
+}
+.trining-5{
+    width: 25%;
+    /* grid-column-start: 4;
+    grid-column-end: 9; */
+}
+.trining-6{
+    width: 35%;
+    /* grid-column-start: 10;
+    grid-column-end: 12; */
 }
 .training-img img{
-    height: 100px;
-    width: 100px;
-
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
+.training-img{
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; */
+}
+/* training end here  */
 
 
 
@@ -1181,6 +1244,7 @@ padding: 20px;
 
 
 .bmi-sec{
+    width: 100%;
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -1194,11 +1258,15 @@ padding: 20px;
     
 }
 .bmi{
-    width: 100%;
+    /* width: 100%; */
     background-color: rgb(45, 45, 46);
     /* height: 400px; */
 
 }
+.bmi-head{
+    text-align: left;
+}
+
 .bmi-main{
     width: 100%;
     display: flex;
