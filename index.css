@@ -605,7 +605,7 @@ tbody td{
     width: 100%;
     margin: auto;
     color: #FFFFFF;
-    opacity: 60%;
+    opacity: 70%;
 
 }
 .test-form{
@@ -622,6 +622,13 @@ tbody td{
 
 .in-100{
     display: flex;
+    
+    /* width: 100%; */
+
+}
+.in-100 input{
+    color: #FFFFFF;
+    
     /* width: 100%; */
 
 }
@@ -633,11 +640,16 @@ tbody td{
     padding: 10px;
     margin: 5px ;
     border: none;
-    background-color: rgb(192, 196, 196);
+    background-color: #383838;
+    color: #FFFFFF;
+
     /* position: relative; */
 }
+.bmi-form input::placeholder {
+    color: #FFFFFF;
+}
 .in-50{
-    color: rgba(85, 85, 85, 0.797);
+    color: #FFFFFF;
 
 }
 .in-100 select{
@@ -647,7 +659,7 @@ tbody td{
     padding: 8px;
     margin: 5px ;
     border: none;
-    background-color: rgb(192, 196, 196);
+    background-color: #383838;
 
 }
 
@@ -684,7 +696,7 @@ align-items: center;
 /* test grid start here  */
 .grid-container{
     /* border: 2px solid red; */
-    background-color: blanchedalmond;
+    background-color: #191919;
 
     border-radius: 30px;
     display: grid;
@@ -700,7 +712,7 @@ align-items: center;
 }
 .detail{
     position: absolute;
-    margin: 15% 2%;
+    margin: 17% 2%;
     /* color: red; */
     font-size: 1.1rem;
     text-align: left;
@@ -786,6 +798,7 @@ footer{
 hr{
     width: 70%;
     margin: 0 auto;
+    margin-top: 50px;
 }
 
 
