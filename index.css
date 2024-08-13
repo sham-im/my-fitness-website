@@ -227,6 +227,10 @@ nav{
     width:30px;
     background-color: #E6533C;
     border-radius:50%;
+    
+}
+.play-icon{
+    display: none;
 }
 .ad-card-2{
     background-color: rgba(255, 255, 255, 0.548);
@@ -907,7 +911,7 @@ header{
 .mobile-btn{
     display: inline;
         background-color: #E6533C;
-        height: 9vh;
+        height: 7vh;
         width: 42vw;
         border-radius: 50px;
         margin: 3px;
@@ -932,7 +936,7 @@ header{
 .ad-card-1{
     background-color: rgb(154, 163, 160);
     height: 70px;
-    width: 30vw;
+    width: 180px;
     /* border-radius: 10px;
     position: absolute;
     text-align: left; */
@@ -941,15 +945,23 @@ header{
 
     /* ekhane ektu kaj korte hbe  */
 }
+.round-icon{
+    /* display: none; */
+}
+.play-icon{
+    display: block;
+    margin: 5px 10px;
+}
+
 .ad-card-2{
     background-color: rgb(183, 194, 190);
-    height: 10vh;
+    height: 11vh;
     width: 35vw;
     border-radius: 10px;
     position: absolute;
     text-align: left;
     margin: 15% 55% ;
-    padding: 15px;
+    /* padding: 15px; */
 }
 
 .habit{
